@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowLogic\bin\Debug\FourInARowLogic.dll.config
+C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowLogic\bin\Debug\FourInARowLogic.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowLogic\bin\Debug\FourInARowLogic.pdb
+C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowLogic\obj\Debug\FourInARowLogic.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowLogic\obj\Debug\FourInARowLogic.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowLogic\obj\Debug\FourInARowLogic.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowLogic\obj\Debug\FourInARowLogic.pdb
