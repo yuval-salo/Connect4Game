@@ -10,3 +10,15 @@ C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134
 C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\Connect4GameUI.csproj.CopyComplete
 C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\FourInARowUI.exe
 C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\FourInARowUI.pdb
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowUI.exe.config
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowUI.exe
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowUI.pdb
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowLogic.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowLogic.pdb
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowLogic.dll.config
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.CopyComplete
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\FourInARowUI.exe
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\FourInARowUI.pdb

@@ -148,7 +148,8 @@ namespace FourInARowUI
             
             // GameSettingsForm
             this.AcceptButton = this.buttonStartGame;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BackColor = Color.White;
+            
             this.ClientSize = new Size(284, 261);
             this.Controls.Add(this.buttonStartGame);
             this.Controls.Add(this.labelCols);
