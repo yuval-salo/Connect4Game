@@ -5,8 +5,9 @@
         public ePlayerType PlayerType { get; private set; }
         public  string Name { get; private set; }
         public  char Sign { get; private set; }
-
         public int Score { get; set; }
+
+        public int Steps { get; set; }
 
         public Player(ePlayerType i_Type, char i_Sign, string i_Name)
         {
@@ -14,6 +15,7 @@
             Name = i_Name;
             Sign = i_Sign;
             Score = 0;
+            Steps = 0;
         }
 
         public bool IsHuman()

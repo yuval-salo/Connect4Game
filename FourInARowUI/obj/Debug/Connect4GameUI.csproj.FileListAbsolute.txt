@@ -1,23 +1,31 @@
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\bin\Debug\FourInARowUI.exe.config
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\bin\Debug\FourInARowUI.exe
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\bin\Debug\FourInARowUI.pdb
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\bin\Debug\FourInARowLogic.dll
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\bin\Debug\FourInARowLogic.pdb
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\bin\Debug\FourInARowLogic.dll.config
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\Connect4GameUI.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\Connect4GameUI.csproj.SuggestedBindingRedirects.cache
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\Connect4GameUI.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\Connect4GameUI.csproj.CopyComplete
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\FourInARowUI.exe
-C:\Users\User\Desktop\yuval\studies\Second Year\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\C21 Ex05 YardenYaakovNaim 313134108 YuvalSalomon 206262271\FourInARowUI\obj\Debug\FourInARowUI.pdb
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowUI.exe.config
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowUI.exe
-C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowUI.pdb
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\DnsClient.dll
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowLogic.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\SharpCompress.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Security.AccessControl.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Text.Encoding.CodePages.dll
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowLogic.pdb
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\FourInARowLogic.dll.config
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\DnsClient.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Buffers.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Memory.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Security.AccessControl.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\bin\Debug\System.Text.Encoding.CodePages.xml
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\FourInARowUI.GameSettingsForm.resources
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\FourInARowUI.GameHomeForm.resources
+C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.GenerateResource.cache
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\Connect4GameUI.csproj.CopyComplete
 C:\Users\User\Desktop\yuval\studies\Second Year\Connect4Game\FourInARowUI\obj\Debug\FourInARowUI.exe

@@ -33,8 +33,7 @@ namespace FourInARowLogic
             initBoard();
         }
 
-    
-
+        
         private void initBoard()
         {
             for (int i = 0; i < RowSize; i++)
@@ -95,7 +94,6 @@ namespace FourInARowLogic
                     }
                 }
             }
-
             return isDraw;
         }
 

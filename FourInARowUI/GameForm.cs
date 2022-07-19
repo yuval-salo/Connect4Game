@@ -11,6 +11,7 @@ namespace FourInARowUI
         private readonly string r_Player1Name, r_Player2Name;
         private readonly bool r_IsPlayer2AI;
         private readonly int r_Rows, r_Cols;
+        private int difficulty = 2;
         private Label m_LabelPlayer1;
         private Label m_LabelPlayer2;
         private Label m_LabelScorePlayer1;
@@ -32,10 +33,15 @@ namespace FourInARowUI
         private void gameForm_Load(object sender, EventArgs e)
         {
             FourInARow.eGameStyle gameStyle = r_IsPlayer2AI ? FourInARow.eGameStyle.PlayerVsComputer : FourInARow.eGameStyle.PlayerVsPlayer;
-
+            
             m_FourInARowGame = new FourInARow(r_Rows, r_Cols, gameStyle, r_Player1Name, r_Player2Name);
             m_FourInARowGame.PlayerSwitch += changeTextBoldAndColor;
+            m_FourInARowGame.Difficulty = r_Cols * r_Rows > 64 ? difficulty + 1 : difficulty + 2;
             m_FourInARowGame.GameOver += fourInARow_GameOver;
+        }
+        public void SetDifficulty(int i_Difficulty)
+        {
+            difficulty = r_Cols * r_Rows > 64 ? i_Difficulty + 1 : i_Difficulty + 2;
         }
 
         private void InitializeComponent()
@@ -130,18 +136,37 @@ namespace FourInARowUI
         private void updateGameButtons(int i_Row, int i_Col, char i_PlayerSign)
         {
             GameButton buttonToUpdate = m_ButtonsOfTheGame[i_Row, i_Col - 1];
-         
             buttonToUpdate.Text = i_PlayerSign.ToString();
-            buttonToUpdate.BackColor = i_PlayerSign == 'X' ? Color.LightBlue : Color.LightGreen; 
+            buttonToUpdate.BackColor = i_PlayerSign == 'X' ? Color.LightBlue : Color.LightGreen;
+            enableChoseButtons();
+
+
+        }
+       
+        private void disableChoseButtons()
+        {
+            for(int i = 0; i < r_Cols; ++i)
+            {
+                GameButton buttonTodisable = m_ButtonsOfTheGame[0,i];
+                buttonTodisable.Enabled = false;
+            }
+        }
+
+        private void enableChoseButtons()
+        {
             for (int col = 0; col < r_Cols; col++)
             {
                 if (m_ButtonsOfTheGame[1, col].Text != "")
                 {
                     m_ButtonsOfTheGame[0, col].Enabled = false;
                 }
+                else
+                {
+                    m_ButtonsOfTheGame[0, col].Enabled = true;
+                }
             }
         }
-       
+
         private void makePlayerMove(object sender)
         {
             Button button = sender as Button;
@@ -158,7 +183,9 @@ namespace FourInARowUI
       
         private void colButton_OnClick(object sender, EventArgs e)
         {
+            disableChoseButtons();
             makePlayerMove(sender);
+            this.Refresh();
             FourInARow.eStatesOfGame state = m_FourInARowGame.CurrentState;
 
             if (state == FourInARow.eStatesOfGame.Lose || state == FourInARow.eStatesOfGame.Draw)
@@ -170,8 +197,9 @@ namespace FourInARowUI
                 if (r_IsPlayer2AI)
                 {
                     makeAIMove();
-                }
+                } 
             }
+            enableChoseButtons();
         }
 
         private void fourInARow_GameOver()
@@ -221,11 +249,11 @@ namespace FourInARowUI
                 winnerName = m_FourInARowGame.LastWinner.Name;
                 if (m_FourInARowGame.LastWinner == m_FourInARowGame.Player1)
                 {
-                    m_LabelScorePlayer1.Text = (int.Parse(m_LabelScorePlayer1.Text) + 1).ToString();
+                    m_LabelScorePlayer1.Text = (int.Parse(m_LabelScorePlayer1.Text) + m_FourInARowGame.LastWinner.Score).ToString();
                 }
                 else
                 {
-                    m_LabelScorePlayer2.Text = (int.Parse(m_LabelScorePlayer2.Text) + 1).ToString();
+                    m_LabelScorePlayer2.Text = (int.Parse(m_LabelScorePlayer2.Text) + m_FourInARowGame.LastWinner.Score).ToString();
                 }
             }
 
@@ -257,6 +285,7 @@ namespace FourInARowUI
             m_FourInARowGame.UpdateCurrentState(o_RowInserted, aIColChoice);
             FourInARow.eStatesOfGame state = m_FourInARowGame.CurrentState;
             updateGameButtons(o_RowInserted, aIColChoice, currentPlayerSign);
+            this.Refresh();
             if (state == FourInARow.eStatesOfGame.Lose || state == FourInARow.eStatesOfGame.Draw)
             {
                 m_FourInARowGame.RoundOver(m_FourInARowGame.CurrentPlayer);

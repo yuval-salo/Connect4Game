@@ -5,6 +5,7 @@ namespace FourInARowLogic
     public class FourInARow
     {
         private readonly Board r_Board;
+        private int difficulty;
         private eStatesOfGame m_CurrentState = eStatesOfGame.Continue;
         public Player Player1 { get; private set; }
         public Player Player2 { get; private set; }
@@ -23,9 +24,21 @@ namespace FourInARowLogic
             Player2 = i_GameStyle == eGameStyle.PlayerVsComputer ?
                             new Player(Player.ePlayerType.Computer, 'O', i_SecondPlayerName) :
                             new Player(Player.ePlayerType.Player2, 'O', i_SecondPlayerName);
+            
             this.CurrentPlayer = this.Player1;
         }
 
+        public int Difficulty
+        {
+            get
+            {
+                return this.difficulty;
+            }
+            set
+            {
+                this.difficulty = value;
+            }
+        }
         public eStatesOfGame CurrentState
         {
             get
@@ -45,12 +58,13 @@ namespace FourInARowLogic
             {
                 if (i_CurrentPlayer == Player1)
                 {
-                    Player2.Score++;
+                    double x = (1.0 / Player2.Steps);
+                    Player2.Score =(int) (Difficulty*50 * x);
                     this.LastWinner = this.Player2;
                 }
                 else
                 { 
-                     Player1.Score++;
+                     Player1.Score =(int)( Difficulty*50 * (float)(1/Player1.Steps));
                      this.LastWinner = this.Player1;
                 }
             }
@@ -93,7 +107,7 @@ namespace FourInARowLogic
                     break;
                 }
 
-                int score = this.miniMax(this.r_Board, 4, false, col, o_Row);
+                int score = this.miniMax(this.r_Board, 6, false, col, o_Row);
                 this.r_Board.SetCell(o_Row - 1, col - 1, ' ');
                 if (score <= bestScore)
                 {
@@ -171,6 +185,7 @@ namespace FourInARowLogic
         public void MakeMove(int i_ColumnFromUser, Player i_Player, out int o_RowInserted)
         {
             r_Board.AddMove(i_ColumnFromUser, i_Player.Sign, out o_RowInserted);
+            i_Player.Steps++;
             this.switchPlayer();
         }
 

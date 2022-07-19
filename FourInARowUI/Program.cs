@@ -1,6 +1,6 @@
 ﻿using FourInARowLogic;
+using System;
 
-// $G$ SFN-012 (+11) Bonus: Events in the Logic layer are handled by the UI.
 
 namespace FourInARowUI
 {
@@ -8,8 +8,13 @@ namespace FourInARowUI
     {
         public static void Main()
         {
-            GameSettingsForm gameSettings = new GameSettingsForm();
-            gameSettings.ShowDialog();
+          
+
+
+             GameHomeForm homeForm = new GameHomeForm();
+             homeForm.ShowDialog();
+            // GameSettingsForm gameSettings = new GameSettingsForm();
+            // gameSettings.ShowDialog();
         }
     }
 }
